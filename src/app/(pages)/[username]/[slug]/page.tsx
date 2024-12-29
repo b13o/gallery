@@ -1,7 +1,10 @@
-import { PROJECTS } from "../../../../../_data/contents";
-import { extractOwnerAndRepo } from "@/utils/api";
+// import { PROJECTS } from "../../../../../_data/contents";
+// import { extractOwnerAndRepo } from "@/utils/api";
 import MarkdownViewer from "./_components/markdown-viewer";
 import MetaDataCard from "./_components/metadata-card";
+
+// Cloudflare Pages は、現状 edge ランタイムのみをサポート
+export const runtime = "edge";
 
 export default async function Detail({
   params,
@@ -18,16 +21,15 @@ export default async function Detail({
         <MarkdownViewer repoUrl={repoUrl} />
       </div>
       <div className="md:w-1/3 w-full sticky top-24 h-screen overflow-hidden">
-        {/* repo のメタデータを表示 */}
         <MetaDataCard repoUrl={repoUrl} />
       </div>
     </div>
   );
 }
 
-export async function generateStaticParams() {
-  return PROJECTS.map(({ repoUrl }) => {
-    const { owner, repo } = extractOwnerAndRepo(repoUrl);
-    return { username: owner, slug: repo };
-  });
-}
+// export async function generateStaticParams() {
+//   return PROJECTS.map(({ repoUrl }) => {
+//     const { owner, repo } = extractOwnerAndRepo(repoUrl);
+//     return { username: owner, slug: repo };
+//   });
+// }
