@@ -34,4 +34,14 @@ export const PROJECTS = [
     imageURL:
       "https://github.com/user-attachments/assets/4a3e2707-ca4e-4d69-92c3-ff88e910276f",
   },
+  {
+    repoUrl: "https://github.com/b13o/portfolio-showcase",
+    imageURL:
+      "https://github.com/user-attachments/assets/fa6fcf27-63b6-4a08-a9b6-d7d16a669593",
+  },
+  {
+    repoUrl: "https://github.com/b13o/book-management-board",
+    imageURL:
+      "https://github.com/user-attachments/assets/93e1c5ff-245a-414e-90f0-b469c7a00161",
+  },
 ];
