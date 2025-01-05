@@ -19,7 +19,6 @@ export default async function Home() {
 
   return (
     <main className="space-y-32 pt-16">
-      {/* <p>ヒーローセクション</p> */}
       <Hero />
       <Gallery projects={projects.reverse()} />
     </main>

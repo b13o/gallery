@@ -61,7 +61,7 @@ const Gallery = (props: GalleryProps) => {
         >
           <Card className="relative col-span-3 grid grid-cols-1 md:grid-cols-2 p-12 hover:border-emerald-600 transition border-2">
             <div className="space-y-8">
-              <p className="text-stone-600">最新のリリース</p>
+              <p className="text-stone-600">最新のお題</p>
               <CardTitle className="text-4xl">
                 {latestProject.repoName}
               </CardTitle>
