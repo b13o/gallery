@@ -44,4 +44,9 @@ export const PROJECTS = [
     imageURL:
       "https://github.com/user-attachments/assets/93e1c5ff-245a-414e-90f0-b469c7a00161",
   },
+  {
+    repoUrl: "https://github.com/b13o/weekly-study-log",
+    imageURL:
+      "https://github.com/user-attachments/assets/fa746760-f6b8-4a5a-8292-1ffb83d063b8",
+  },
 ];
