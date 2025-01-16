@@ -49,4 +49,9 @@ export const PROJECTS = [
     imageURL:
       "https://github.com/user-attachments/assets/fa746760-f6b8-4a5a-8292-1ffb83d063b8",
   },
+  {
+    repoUrl: "https://github.com/b13o/photo-gallery",
+    imageURL:
+      "https://github.com/user-attachments/assets/ba02a49c-8b16-491b-99a2-ce35d502fd14",
+  },
 ];
