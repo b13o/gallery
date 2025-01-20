@@ -54,4 +54,9 @@ export const PROJECTS = [
     imageURL:
       "https://github.com/user-attachments/assets/ba02a49c-8b16-491b-99a2-ce35d502fd14",
   },
+  {
+    repoUrl: "https://github.com/b13o/pokemon-omikuji",
+    imageURL:
+      "https://github.com/user-attachments/assets/be5f1e80-81d1-4a32-8dd2-ab7e13849d1a",
+  },
 ];
