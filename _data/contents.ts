@@ -59,4 +59,9 @@ export const PROJECTS = [
     imageURL:
       "https://github.com/user-attachments/assets/be5f1e80-81d1-4a32-8dd2-ab7e13849d1a",
   },
+  {
+    repoUrl: "https://github.com/b13o/roadmap-voting",
+    imageURL:
+      "https://github.com/user-attachments/assets/324d11ca-5c5c-4321-b7d6-2d413daae389",
+  },
 ];
