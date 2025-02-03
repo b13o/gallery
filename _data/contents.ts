@@ -64,4 +64,9 @@ export const PROJECTS = [
     imageURL:
       "https://github.com/user-attachments/assets/324d11ca-5c5c-4321-b7d6-2d413daae389",
   },
+  {
+    repoUrl: "https://github.com/b13o/microCMS-blog",
+    imageURL:
+      "https://github.com/user-attachments/assets/9017acd8-64c4-4299-b044-5a45ea48dfcf",
+  },
 ];
