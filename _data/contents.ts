@@ -72,6 +72,11 @@ export const PROJECTS = [
   {
     repoUrl: "https://github.com/b13o/code-challenge-app",
     imageURL:
-      "https://github.com/user-attachments/assets/fc6c24a0-7485-43f3-85e8-ffd7d7c305c2",
+      "https://github.com/user-attachments/assets/bc7d0573-50ee-4692-9742-29573fc1ca44",
+  },
+  {
+    repoUrl: "https://github.com/b13o/knowledge-EC",
+    imageURL:
+      "https://github.com/user-attachments/assets/d2b7c98d-e739-44f9-8e5a-7118c8f12b06",
   },
 ];
