@@ -79,4 +79,14 @@ export const PROJECTS = [
     imageURL:
       "https://github.com/user-attachments/assets/d2b7c98d-e739-44f9-8e5a-7118c8f12b06",
   },
+  {
+    repoUrl: "https://github.com/b13o/e2e-knowledge-EC",
+    imageURL:
+      "https://github.com/user-attachments/assets/d2b7c98d-e739-44f9-8e5a-7118c8f12b06",
+  },
+  {
+    repoUrl: "https://github.com/b13o/orange-mimdmap",
+    imageURL:
+      "https://github.com/user-attachments/assets/0f9018d3-8b67-4b5b-a7e2-3779ff7d6b06",
+  },
 ];
